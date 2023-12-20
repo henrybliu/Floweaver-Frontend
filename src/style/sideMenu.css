@@ -1,0 +1,109 @@
+.sideMenuModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+}
+
+.menuContainer {
+  width: 500px;
+  margin-left: -100px;
+  height: 100%;
+  background-color: #f1f0e8;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+}
+
+.menuContent {
+  margin-left: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.closeContainer {
+  display: flex;
+  justify-content: right;
+}
+
+#close {
+  font-size: 2rem;
+  margin-right: -10px;
+}
+
+#close:hover {
+  cursor: pointer;
+  fill: #0093ff;
+  transition: 0.2s;
+}
+
+.infoContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infoContainer h1 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+}
+
+.infoContainer p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.4rem;
+}
+
+.infoContainer a {
+  color: #0093ff;
+}
+
+.footer img {
+  width: 100%;
+  height: auto;
+}
+
+.contributors {
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Oxygen", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.contributors h3 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+.name {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+}
+
+.name:last-child {
+  grid-column: 2 / 3;
+  grid-row: auto / span 1;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+}

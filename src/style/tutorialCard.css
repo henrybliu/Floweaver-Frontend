@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+}
+
+.top {
+  height: 340px;
+  width: 100%;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  padding: 30px 50px;
+  height: 350px;
+  width: 100%;
+  background-color: #f1f0e8;
+}
+
+.bottom .title {
+  font-family: "Oxygen", sans-serif;
+}
+
+.bottom .description {
+  padding: 10px 30px;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 1.5rem;
+}

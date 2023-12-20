@@ -1,0 +1,24 @@
+{
+    "coordinates": [
+      {
+        "location": "Strait of Juan de Fuca",
+        "latitude": 48.35,
+        "longitude": -124.24
+      },
+      {
+        "location": "Mock1",
+        "latitude": 40.71,
+        "longitude": -74.00
+      },
+      {
+        "location": "Mock2",
+        "latitude": -33.87, 
+        "longitude": 151.21
+      },
+      {
+        "location": "Mock3",
+        "latitude": 59.33,
+        "longitude": 18.06
+      }
+    ]
+  }

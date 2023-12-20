@@ -1,0 +1,10 @@
+/* styling for mapbox */
+@import "mapbox-gl/dist/mapbox-gl.css";
+
+#marker {
+  font-size: 2.5rem;
+  fill: #0093ff;
+}
+#marker:hover {
+  cursor: pointer;
+}

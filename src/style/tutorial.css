@@ -1,0 +1,97 @@
+.tutorialModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorialContainer {
+  width: 600px;
+  height: 630px;
+  background-color: #f1f0e8;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.tutorialModal .closeContainer {
+  display: flex;
+  justify-content: right;
+}
+
+#tutorialClose {
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-right: 10px;
+  z-index: 9999;
+}
+
+#tutorialClose:hover {
+  cursor: pointer;
+  fill: #0093ff;
+  transition: 0.2s;
+}
+
+.carousel {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.slider {
+  display: flex;
+  width: 400%;
+  height: 600px;
+  transition: all 0.5s;
+}
+
+.navControl {
+  position: relative;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#leftArrow,
+#rightArrow {
+  font-size: 2rem;
+}
+
+#leftArrow:hover,
+#rightArrow:hover,
+.circle:hover {
+  cursor: pointer;
+  fill: #0093ff;
+}
+
+.navControl ul {
+  list-style: none;
+  display: flex;
+}
+
+.navControl ul li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: black;
+  margin: 5px;
+}
+
+.navControl ul li:hover {
+  cursor: pointer;
+  background: #0093ff;
+  border: 2px solid #0093ff;
+}
+
+.navControl .selected {
+  background: transparent;
+}

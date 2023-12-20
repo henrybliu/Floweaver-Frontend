@@ -1,0 +1,41 @@
+.navBarContainer {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #61677a;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  color: #f2f2f2;
+  font-family: "Oxygen", sans-serif;
+}
+
+.navBarContainer .middleNavBar {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.navBarContainer .leftNavBar {
+  font-size: 2rem;
+  display: flex;
+}
+
+.navBarContainer .leftNavBar #hamburger:hover {
+  cursor: pointer;
+  fill: #0093ff;
+  transition: 0.2s;
+}
+
+.navBarContainer .rightNavBar {
+  font-size: 1.7rem;
+  display: flex;
+}
+
+.navBarContainer .rightNavBar #info:hover {
+  cursor: pointer;
+  fill: #0093ff;
+  transition: 0.2s;
+}
