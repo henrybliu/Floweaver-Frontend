@@ -57,7 +57,7 @@ const Map = () => {
       ref={mapRef}
       onViewportChange={handleViewportChange} // Use the callback to track flying state
       initialViewState={viewport}
-      mapboxAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
+      mapboxAccessToken="pk.eyJ1IjoiaGxpdTExIiwiYSI6ImNsbWF2dXoyZDBzZXQzZHF1Mjd1OXkxcjgifQ.nuXqo90y7s31fwQH3IZNmA"
       style={{ width: "100%", height: "100%" }}
       mapStyle="mapbox://styles/mapbox/light-v11"
     >
